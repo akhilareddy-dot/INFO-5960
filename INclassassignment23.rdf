@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3">
+        <owl:imports rdf:resource="http://www.co-ode.org/ontologies/pizza/2.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000000">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">Marinarasaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000001 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000001">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">Whitesaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000002 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000002">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">BBQSaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000003 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000003">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">Pestosaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000004 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000004">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">Buffalosaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000011">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
+        <rdfs:label xml:lang="en">Siciliancrustbase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000012">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
+        <rdfs:label xml:lang="en">flatbreadbase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000017 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000017">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000011"/>
+        <rdfs:label xml:lang="en">Flatbread</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000018 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000018">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">bbq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000019 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000019">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000000"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasBase"/>
+                        <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"/>
+        <rdfs:label xml:lang="en">chicago</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000031 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000031">
+        <rdfs:label xml:lang="en">American</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000041 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000041">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000018"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000042"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000043"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000044"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000045"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000046"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000047"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000048"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000049"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000050"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000051"/>
+        <rdfs:label xml:lang="en">Universitypizza</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000042 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000042">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">Universitybbqsaucetopping</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000043 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000043">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">universitygarlictopping</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000044 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000044">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">universitywhitesauce</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000045 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000045">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">universitypesto</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000046 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000046">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">universitybuffalo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000047 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000047">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">universitymarinara</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000048 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000048">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping"/>
+        <rdfs:label xml:lang="en">universitychicken</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000049 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000049">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
+        <rdfs:label xml:lang="en">universityham</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000050 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000050">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"/>
+        <rdfs:label xml:lang="en">universityhotspicedbeef</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000051 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akhilareddypuchakayala/ontologies/2023/1/untitled-ontology-3#AP00000051">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping"/>
+        <rdfs:label xml:lang="en">universitysultana</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
